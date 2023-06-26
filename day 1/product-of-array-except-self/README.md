@@ -14,7 +14,13 @@ Modulo 1e9+7 or 1000000007
 [https://www.geeksforgeeks.org/modulo-operator-in-c-cpp-with-examples/](https://www.geeksforgeeks.org/modulo-1097-1000000007/)
 
 
-# Best Approach
+# Best Approaches
+
+Basic approach is 2 for loop approach, where you just compute the product of the whole array except for the index that you are currently on
+Second better approach is to calculate first the product, and divide the product with the current element you are on. This is one for loop and O(n).
+
+None of the both seems to give the all 6/6 test cases correct at least for me.
+The approach below gives the right answers.
 
 
 # Function Signature
